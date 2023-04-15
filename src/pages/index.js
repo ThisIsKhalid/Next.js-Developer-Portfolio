@@ -34,17 +34,17 @@ export default function Home() {
         <Layout className="pt-0">
           <div className="flex items-center justify-between w-full gap-4">
             <div className="w-1/2 ">
-              {/* <Image
+              <Image
                 src={profilePic}
                 alt="name"
                 className="w-full h-auto"
-              /> */}
-              <YouTube
+              />
+              {/* <YouTube
                 videoId={videoId}
                 onReady={onReady}
                 opts={opts}
                 className="overflow-hidden border-r-4 border-b-4 border-solid border-black shadow-lg rounded-lg !w-full h-auto"
-              />
+              /> */}
             </div>
             <div className="w-1/2 flex flex-col items-center self-center">
               <AnimatedText
